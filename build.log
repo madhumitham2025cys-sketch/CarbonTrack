@@ -1,0 +1,25 @@
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:carbontrack >-----------------------
+[INFO] Building carbontrack 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:05 min
+[INFO] Finished at: 2026-09-28T12:25:16+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project carbontrack: Could not collect dependencies for project com.example:carbontrack:jar:0.0.1-SNAPSHOT
+[ERROR] Failed to read artifact descriptor for org.springframework.boot:spring-boot-starter-thymeleaf:jar:4.1.1
+[ERROR] 	Caused by: The following artifacts could not be resolved: org.springframework.boot:spring-boot-starter-thymeleaf:pom:4.1.1 (absent): Could not transfer artifact org.springframework.boot:spring-boot-starter-thymeleaf:pom:4.1.1 from/to central (https://repo.maven.apache.org/maven2): status code: 429, reason phrase: Too Many Requests (429)
+[ERROR] Failed to read artifact descriptor for org.springframework.boot:spring-boot-devtools:jar:4.1.1
+[ERROR] 	Caused by: The following artifacts could not be resolved: org.springframework.boot:spring-boot-devtools:pom:4.1.1 (absent): Could not transfer artifact org.springframework.boot:spring-boot-devtools:pom:4.1.1 from/to central (https://repo.maven.apache.org/maven2): status code: 429, reason phrase: Too Many Requests (429)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
